@@ -29,7 +29,6 @@ const char* Serializable::getJSONString(){
         hasSerialized = true;
     }
     JSONvalue.Accept(writer);
-    
     return out.GetString();
 }
 
